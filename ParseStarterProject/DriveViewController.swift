@@ -155,10 +155,6 @@ class DriveViewController: UIViewController,CLLocationManagerDelegate, MKMapView
                     let distanceKM = distanceMeters / 1000
                     let roundedTwoDigitDistance = Double(round(distanceKM * 10) / 10)
                     
-                    //     self.callUberButton.setTitle("Driver is \(roundedTwoDigitDistance)km away!", forState: UIControlState.Normal)
-                    
-                    //   self.driverOnTheWay = true
-                    
                     let center = CLLocationCoordinate2D(latitude: location.latitude, longitude: location.longitude)
                     
                     let latDelta = abs(carLocation.latitude - location.latitude) * 2 + 0.005
