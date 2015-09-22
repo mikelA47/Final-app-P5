@@ -10,6 +10,14 @@ position and the car´s position so it will make it easier for them to find it a
 
 Parse API - CoreData - Segue - Modal - Navigation 
 
+Test users and passwords.
+user: x
+password: x
+user: c
+password: c
+user: mikel
+password: mikel
+
 The first screen will let you login or sign up to create an account. Once you are log in it will be four options:
 1.- Park
 2.- Drive
